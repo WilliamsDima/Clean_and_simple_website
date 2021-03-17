@@ -1,0 +1,29 @@
+.head__item {
+    display: flex;
+    
+    a {
+        margin: auto 0;
+    }
+    
+    .social {
+        display: flex;
+        margin: auto 0;
+        
+        img {
+            margin-right: 4rem;
+        }
+    }
+    
+    .get-started {
+        color: #3A79FF;
+        background-color: #D2E1FF;
+        border: none;
+        padding: 13px 15px;
+        border-radius: 3px;
+        transition: all .2s linear;
+        
+        &:hover {
+            background-color: lighten( #D2E1FF, 5% );
+        }
+    }
+}

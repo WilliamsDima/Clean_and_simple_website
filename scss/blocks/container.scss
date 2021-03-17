@@ -1,0 +1,136 @@
+.container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    &.prive,
+    &.blog {
+        margin-top: 72px;
+        padding-top: 9.2rem;
+        padding-bottom: 10rem;
+        background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+        position: relative;
+    }
+    
+    &.blog {
+        margin-top: 0;
+        padding-top: 10rem;
+        .title {
+            font-weight: 500;
+            font-size: $fz-title-container;
+        }
+    }
+    
+    &.testimonials {
+        display: flex;
+        justify-content: center;
+        padding: 11rem 0;
+        background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+        
+    .slick-initialized .slick-slide {
+        display: block;
+        height: 17rem;
+        }
+    }
+    
+    &.acardion {
+        padding: 8rem 0;
+        margin-top: 0;
+        
+        .title {
+            font-size: $fz-title-container;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .content {
+        width: 100%;
+    
+        .text {
+            text-align: center;
+            width: 47rem;
+            margin: 0 auto;
+            margin-top: 3rem;
+            color: #8D96BD;
+            font-weight: 400;
+            font-size: $fz-text;
+        }
+        
+        .play {
+            background-color: $white;
+            margin: 0 auto;
+            margin-top: 2rem;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            cursor: pointer;
+            
+            
+            .figure {
+                position: relative;
+                
+                &::after {
+                    content: ''; 
+                    position: absolute;
+                    left: 22px; 
+                    top: 20px; 
+                    border: 6px solid transparent;	
+                    border-left: 12px solid #5E81FF;
+                    border-radius: 3px;
+                    
+                }
+            }
+        }
+    }
+    
+    &.about {
+        position: relative;
+        padding: 18rem 0;
+    }
+    
+    &.statistics {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &.get-started {
+        position: relative;
+        padding: 9rem 0;
+        background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+        
+        .sub-title {
+            color: $white;
+        }
+        
+        .title {
+            font-weight: 400;
+            color: $white;
+            
+            .title__weight {
+                font-weight: 500;
+            }
+        }
+        
+        .text {
+            width: 700px;
+            margin: 0 auto;
+            color: $white;
+            margin-top: 3rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

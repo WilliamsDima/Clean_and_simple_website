@@ -1,0 +1,32 @@
+.featuris {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 37rem;
+    margin-top: 12rem;
+    
+    .block__item {
+        
+        width: 165px;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 33px;
+        }
+    
+        .name-img {
+            text-decoration: none;
+            color: #4074F8;
+            font-weight: 500;
+            font-size: 1.4rem;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+        p {
+            margin-top: 25px;
+        }
+    }
+    
+}

@@ -1,0 +1,96 @@
+.plan {
+    width: 100%;
+    background-color: $bg-containet;
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 185px 0;
+        
+        
+        .plan__text {
+            
+            margin-left: 270px;
+            
+            .sub-title,
+            .title,
+            .text,
+            .play-video {
+                margin-left: 0;
+                margin-right: 0;
+                text-align: left;
+            }
+            
+            .text {
+                line-height: 2;
+            }
+            
+            .play-video {
+                width: 130px;
+                background-color: #4C85FF;
+                border-radius: 3px;
+                cursor: pointer;
+                
+                color: $white;
+                font-size: 1.3rem;
+                font-weight: 700;
+                
+                padding: 2rem 0;
+                padding-left: 2rem;
+                padding-right: 3rem;
+                text-align: center;
+                
+                transition: all .2s linear;
+
+            
+                .figure {
+                    position: relative;
+
+                    &::after {
+                        content: ''; 
+                        position: absolute;
+                        right: -8px; 
+                        bottom: 0px; 
+                        border: 6px solid transparent;	
+                        border-left: 12px solid $white;
+                        border-radius: 3px;
+
+                    }
+                }
+                
+                &:hover {
+                    background-color: lighten( #4C85FF, 5% );
+                }
+            }
+            
+            .btn-block {
+                display: flex;
+                margin-top: 6rem;
+                
+                .see-features {
+                    width: 130px;
+                    
+                    border: 1px solid #ADB4D2;
+                    border-radius: 3px;
+                    cursor: pointer;
+
+                    color: #ADB4D2;
+                    font-size: 1.3rem;
+                    font-weight: 700;
+
+                    padding: 2rem 0;
+                    padding-left: 2rem;
+                    padding-right: 3rem;
+                    text-align: center;
+
+                    transition: all .2s linear;
+                    background-color: #F5F8FF;
+                    
+                    &:hover {
+                        background-color: lighten( #ADB4D2, 25% );
+                    }
+                }
+            }
+        }
+    }
+}

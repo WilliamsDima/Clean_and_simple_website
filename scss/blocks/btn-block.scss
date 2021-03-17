@@ -1,0 +1,61 @@
+.btn-block {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    
+    .about-btn {
+        font-size: 1.3rem;
+        font-weight: 600;
+        border: none;
+        text-align: center;
+        padding: 13px 15px;
+        border-radius: 3px;
+        transition: all .2s linear;
+        
+        &.read {
+            background-color: #FFD7D7;
+            color: #D43F3F; 
+            
+            &:hover {
+                background-color: lighten( #FFD7D7, 5% );
+            }
+        }
+        
+        &.get {
+            background-color: #D2E1FF;
+            color: #3A79FF;
+            
+            &:hover {
+                background-color: lighten( #D2E1FF, 5% );
+            }
+        }
+    }
+    
+    span {
+        font-size: 1.1rem;
+        color: #ADB3CB;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        margin: auto 50px;
+        
+        &:after,
+        &:before {
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%);
+            content: '';
+            width: 15px;
+            height: 1px;
+            background-color: #DAE4FE;
+        }
+        
+        &:before {
+            right: 25px;
+        }
+        
+        &:after {
+            left: 40px;
+        }
+    }
+}

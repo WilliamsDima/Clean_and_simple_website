@@ -1,0 +1,16 @@
+.title {
+    color: $title;
+    font-size: $fz-title;
+    font-weight: 300;
+    margin-top: 16px;
+    
+    .title__weight {
+        font-weight: 400;
+    }
+}
+
+.sub-title {
+    font-size: $fz-sub-title;
+    color: $title;
+    text-transform: uppercase;
+}

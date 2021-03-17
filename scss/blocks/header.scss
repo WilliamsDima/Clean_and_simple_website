@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    z-index: $z-index-header;
+    background-color: $white;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    
+    .head {
+        display: flex;
+        padding: 1.5rem 12rem;
+        justify-content: space-between;
+    }
+}

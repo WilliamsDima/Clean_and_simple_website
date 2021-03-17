@@ -1,0 +1,45 @@
+.gadget {
+    position: relative;
+    margin-right: 270px;
+    
+    .desktop,
+    .desktop__panel,
+    .mobile-left,
+    .mobile-right {
+        position: absolute;
+        right: 50%;
+        background-color: $white;
+        box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+    }
+    
+    .desktop {
+        padding: 1rem 0;
+        border-radius: 15px;
+    }
+    
+    .desktop__panel {
+        width: 580px;
+        height: 2rem;
+        background-color: #ffffff;
+        left: -550px;
+        bottom: -2%;
+        border: 2px solid #ffffff;
+        border-radius: 0 0 5% 5%/0 0 100% 100%;
+
+    }
+    
+    .mobile-left {
+        left: -560px;
+        top: 20%;
+        z-index: 2;
+        padding: 1rem 0;
+        border-radius: 15px;
+    }
+    .mobile-right {
+        left: -165px;
+        top: 40%;
+        z-index: 2;
+        padding: 1rem 0;
+        border-radius: 15px;
+    }
+}
